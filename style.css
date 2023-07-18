@@ -1,0 +1,481 @@
+/* google font link font family cinzel  */
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+    list-style: none;
+}
+
+/* header section start  */
+
+header{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.027);
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav  ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+     margin-right: 25px;
+}
+nav a{
+    font-weight: 600;
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 1.2rem;
+}
+.nav-icon{
+    display: flex;
+    padding: 8px 28px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    
+}
+.nav-icon .youtube{
+    color: red;
+    font-size: 23px;
+}
+.nav-icon .tiktok{
+    font-size: 23px;
+    margin-left: 10px;
+    color: black;
+}
+.nav-logo{
+    display: flex;
+}
+.nav-logo span{
+    color: #FF42A5;
+}
+.nav-logo img{
+    width: 83px;
+    height: 48px;
+    margin-right: 15px;
+    
+}
+.nav-logo h1{
+    font-size: 2.6rem;
+    text-transform: uppercase;
+}
+ 
+
+/* banner section start  */
+
+.banner-section{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 82vh;
+    width: 100%;
+    margin: 0 auto;
+   
+}
+.banner-img{
+     margin-top: 90px;
+}
+.banner-text{
+    margin-left: 100px;
+    
+}
+.banner-text h1{
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.banner-text h2{
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+       background-clip: text;
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+        font-size: 95px;
+        font-weight: 800;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+}
+.icon-banner{
+    display: flex;
+    margin-left: 15px;
+    
+    
+}
+.icon-banner span{
+    margin-right: 13px;
+    margin-bottom:  15px;
+    color: #F948B2;
+}
+.icon-banner p{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+
+.btn-primary{
+    display: inline-flex;
+    padding: 10px 40px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    border: none;
+    background: #F948B2;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.125);
+    margin-right: 20px;
+    margin-top: 20px;
+    
+}
+.btn-info{
+    display: inline-flex;
+    padding: 10px 40px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    border: none;
+    background: #4EC5F7;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.125);
+
+}
+
+
+/* gammer section start  */
+
+.gammer-section{
+    width: 100%;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.gammer-text p{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.gammer-text{
+    width: 500px;
+    text-align: right;
+    
+     
+     
+}
+.gammer-text h1{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+ 
+ 
+.gammer-text strong{
+    color: #534C64;
+    font-size: 16px;
+     display: block;
+}
+.gammer-text span{
+    font-size: 1.6rem;
+    font-weight: 700;
+    display: block;
+}
+.gammer-text .btn{
+    margin-right: 0px;
+    margin-bottom: 20px;
+}
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+/* ONLINE GAME SECTION  */
+
+.online-game-section{
+    text-align: center;
+    margin-top: 170px;
+}
+.online-game-section h1{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.online-game-section b{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+    
+}
+.online-game-section p{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.img-container{
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+    
+}
+.img-text p{
+    color: #534C64;
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 30px; 
+    margin-top: 20px;
+}
+.hover-icon-text{
+    position: absolute;
+    background: #00000099;
+    top: 50px;
+    left:  40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 260px;
+    height: 300px;
+    border-radius: 12px;
+    visibility: hidden;
+    transform-origin: center;
+    transition: all .5s;
+    overflow: hidden;
+}
+/* hover part  */
+
+.full-content:hover .hover-icon-text{
+    visibility: visible;
+    transition: transform .5s ease;
+    transform: scale(1.2);
+}
+ 
+ 
+ 
+.hover-icon-text span{
+     
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: white;
+}
+.play-btn{
+    font-size: 1rem;
+    border: none;
+    background: transparent;
+    padding: 5px 18px;
+    border: 1px solid #4EC5F7;
+    color: #fff4fb;
+    border-radius: 40px;
+}
+.full-content{
+    position: relative;
+    height: 400px;
+    width: 342px;
+    
+}
+.online-img img{
+    width: 342px;
+    height: 400px;
+    
+}
+.img-border img{
+    border: 5px solid #F948B2;
+    border-radius: 20px;
+}
+
+/* INSTALL SECTION CSS  */
+
+.install-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 120px;
+    
+    
+}
+.install-img{
+    position: relative;
+}
+ .install-img img{
+    width: 620px;
+    margin-top: 120px;
+    
+ }
+ .small-img img{
+    position: absolute;
+    width: 330px;
+    bottom: -90px;
+    left: -170px;
+    
+
+ }
+
+ .install-text{
+    width: 353px;
+     margin-left: 200px;
+ }
+ .install-text h1{
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+     
+ }
+ .install-text span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+ .install-text p{
+    margin-top: 20px;
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+ }
+
+ /* PALY SECTION  */
+
+ .play-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 200px;
+ }
+ .play-img{
+    position: relative;
+ }
+ .play-text p{
+    margin-top: 20px;
+    color: #534C64;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+ }
+ .play-small-img img{
+    position: absolute;
+    width: 330px;
+    bottom:  -90px;
+    right:  -170px;
+ }
+ .play-text{
+    width:400px;
+    margin-right: 60px;
+ }
+ .play-text h1{
+    font-size: 40px;
+    font-weight: 700;
+ }
+ .play-text span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+
+
+ /* careers section css  */
+
+ .careers-section{
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    margin-top: 250px;
+    height: 80vh;
+ }
+ .careers-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .careers-text{
+    margin-left: 230px;
+ }
+ .careers-text p{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+ }
+ .careers-small-text{
+    display: flex;
+    
+ }
+  
+    
+
+ /* GAME ITEM SECTION CSS  */
+
+ .game-item-section{
+    height: 400px;
+    display: flex;
+    align-items: center;
+
+ }
+ .main-item{
+    
+    display: grid;
+    grid-template-columns: repeat(5, 250px);
+    gap: 35px;
+    width: 100%;
+    justify-content: center;
+    
+    
+    
+    
+ }
+ .game-item{
+    display: flex;
+    align-items: center;
+    border: 2px solid transparent;
+    border-radius: 40px;
+    
+    
+ }
+ /* hover part  */
+ .game-item:hover{
+    border: 2px solid #F948B2;
+    border-radius: 40px;
+    color: #F948B2;
+    transition: all .4s;
+ }
+ .game-item:hover p{
+    color: #F948B2;
+    transition: all .3s;
+ }
+ .game-item p{
+    color: #0B0223;
+    font-size: 16px;
+    font-weight: 600;
+    
+ }
+ .game-item img{
+    margin-right: 10px;
+ }
