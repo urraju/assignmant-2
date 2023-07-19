@@ -1,0 +1,27 @@
+
+
+/* nav section  */
+@media screen and (max-width: 576px) {
+    
+      header{
+         max-width: 100%;
+        padding: 30px;
+        margin: 0 auto;
+      }
+        nav{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+            
+        }
+        nav ul{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+        nav li{
+          margin-right: 0px;
+        }
+}

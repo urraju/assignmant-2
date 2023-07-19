@@ -411,12 +411,19 @@ main{
     height: 80vh;
  }
  .careers-content{
+     
     display: flex;
     align-items: center;
     justify-content: space-between;
  }
  .careers-text{
     margin-left: 230px;
+    width: 450px;
+ }
+ .careers-text h1{
+    color: white;
+    font-size: 2.3rem;
+    margin-bottom: 15px;
  }
  .careers-text p{
     color: #FFF;
@@ -425,30 +432,47 @@ main{
     line-height: 30px;
  }
  .careers-small-text{
-    display: flex;
-    
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
  }
+ .careers-small-text .text-right{
+    text-align: right;
+    margin-left: 30px;
+ }
+ 
+ .btn-last{
+    padding: 8px 20px;
+    background: white;
+    border: none;
+    color: #FF42A5;
+    font-size: 1rem;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.096);
+    font-weight: 600;
+ }   
+ 
   
     
 
  /* GAME ITEM SECTION CSS  */
 
  .game-item-section{
-    height: 400px;
+    width: 100%;
+    height: 350px;
     display: flex;
     align-items: center;
-
+    justify-content: center;
  }
  .main-item{
-    
-    display: grid;
-    grid-template-columns: repeat(5, 250px);
-    gap: 35px;
-    width: 100%;
-    justify-content: center;
-    
-    
-    
+    width: 1200px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 30px;
+     flex-wrap: wrap;
     
  }
  .game-item{
@@ -478,4 +502,92 @@ main{
  }
  .game-item img{
     margin-right: 10px;
+ }
+
+ /* FOOTER SECTION  */
+
+ footer{
+    width: 100%;
+    height: 50vh;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    background: rgb(4, 4, 4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .footer-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .footer-img span{
+    color: #FF42A5;
+ }
+ .footer-img img{
+    margin-right: 20px;
+ }
+ .footer-img h1{
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+ }
+
+ .game-history{
+    display: grid;
+    grid-template-columns: repeat(6, 120px);
+    margin-top: 50px;
+    color: white;
+ }
+ .game-history p{
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+ }
+
+ .footer-icon{
+      display: grid;
+      grid-template-columns: repeat(6,70px);
+      justify-content: center;
+      margin-top: 40px;
+ }
+ .footer-icon span{
+     width: 40px;
+     height: 40px;
+     line-height: 40px;
+     border-radius: 50%;
+      background: white;
+     color: #F948B2;
+     font-size: 20px;
+     text-align: center;
+
+ }
+.footer-icon span:hover{
+    background: #FF42A5;
+    color: white;
+    transition: all .4s;
+}
+
+ .footer-privacy{
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    margin-top: 30px;
+ }
+ .footer-privacy p{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    
+ }
+
+ .footer-last-text {
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
  }
