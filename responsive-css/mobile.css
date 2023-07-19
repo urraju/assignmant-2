@@ -1,11 +1,11 @@
 
 
 /* nav section  */
+
 @media screen and (max-width: 576px) {
     
       header{
-         
-         max-width: 100%;
+        max-width: 100%;
         text-align: center;
         box-shadow: none;
       }
@@ -14,9 +14,7 @@
             flex-direction: column;
             justify-content: center;
             text-align: center;
-            
-            
-        }
+       }
         nav ul{
             display: flex;
             flex-direction: column;
@@ -88,16 +86,18 @@
         .online-game-section{
           padding: 30px;
           width: 100%;
-          text-align: center;
+          margin: 0 auto;
+          margin-top: 80px;
+          
         }
         .img-container{
-          display: flex;
-          flex-direction: column;
-          gap: 80px;
+          display: grid;
+          grid-template-columns: repeat(1);
+          justify-content: center;
+          gap: 100px;
+          margin-top: 60px;
         }
-        .online-img img{
-           
-        }
+         
 
         /* install section  */
 
@@ -123,13 +123,13 @@
           text-align: center;
         }
         .install-img img{
-          width: 100%;
+          width: 350px;
           position: relative;
         }
         .small-img img{
           width: 150px;
           position: absolute;
-          left: -20px;
+          left: -40px;
           bottom: -60px;
         }
 
@@ -143,13 +143,13 @@
         }
         .play-img img{
           margin-top: 40px;
-          width: 100%;
+           width: 350px;
           position: relative;
         }
         .play-small-img img{
           width: 150px;
           position: absolute;
-          right: -20px;
+          right: -40px;
           bottom: -60px;
         }
         .play-text{
@@ -220,7 +220,6 @@
            justify-content: center;
            flex-wrap: wrap;
            gap: 20px;
-          
        }
 
         .footer-icon{
@@ -248,3 +247,5 @@
           font-size: 1rem;
         }
   }
+
+  /* ALL CLEAR  */

@@ -1,0 +1,134 @@
+
+/* Responsive is this css  */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+
+    /* banner-section  */
+
+    .banner-section{
+        width: 100%;
+        padding: 30px;
+        height: 60vh;
+    }
+    .banner-img img{
+        width: 500px;
+    }
+    .banner-text h2{
+        font-size: 4.4rem;
+    }
+    .banner-text h1{
+        font-size: 3rem;
+    }
+   
+    .banner-text {
+        margin-left: 50px;
+    }
+    
+    /* gammer section  */
+
+    .gammer-section{
+        width: 100%;
+        padding: 30px;
+    }
+    .gammer-img img{
+        width: 100%;
+    }
+    .gammer-text{
+        width: 100%;
+    }
+
+    /* online game section  */
+
+    .online-game-section{
+        width: 100%;
+        padding: 30px;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+
+    .img-container{
+        display: grid;
+        margin-top: 100px;
+        grid-template-columns: repeat(2, 350px);
+        gap: 80px;
+        justify-content: center;
+    }
+
+    /* install section  */
+
+    .install-section {
+        width: 100%;
+        padding: 30px;
+    }
+    .install-img img{
+         width: 420px;
+    }
+    .install-text{
+         
+        width: 300px;
+        margin-left: 0px;
+    }
+    .small-img img{
+        width: 270px;
+    }
+    .install-text h1{
+        text-align: center;
+        font-size: 2.7rem;
+    }
+    .install-text p{
+        text-align: center;
+    }
+
+    /* play section  */
+
+    .play-section{
+        width: 100%;
+        padding: 30px;
+    }
+    .play-img img{
+        width: 420px;
+    }
+    .play-small-img img{
+        width: 280px;
+    }
+    .play-text{
+        width: 330px;
+        margin-right: 0px;
+    }
+    .play-text h1{
+        text-align: center;
+    }
+    .play-text p{
+        text-align: center;
+    }
+
+    /* CAREERS SECTION  */
+
+    .careers-section{
+        width: 100%;
+        height: 130vh;
+        padding: 30px;
+    }
+    .careers-content{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .careers-text{
+        margin-left: 50px;
+        width: 600px;
+    }
+    .careers-img img{
+        width: 100%;
+    }
+
+    .main-item{
+        display: grid;
+        grid-template-columns: repeat(3,250px);
+         
+        justify-content: center;
+    }
+}
+
+ /* FINNALY DONE  */
+
